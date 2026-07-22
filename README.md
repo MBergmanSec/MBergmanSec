@@ -65,18 +65,26 @@ The lab is used to investigate Windows telemetry, analyse network traffic and re
 
 ---
 
-# Currently Learning
+# Technical skills
 
-I'm currently focusing on developing practical SOC skills including:
+SIEM
+- Splunk Enterprise
 
-- Splunk Investigations
-- Windows Event Analysis
-- Linux Log Analysis
-- Detection Engineering
-- MITRE ATT&CK
-- Sigma Rules
+Endpoint
+- Sysmon
+- Windows Event Logs
 
----
+Networking
+- Wireshark
+- TCP/IP
+- DNS
+
+Operating Systems
+- Windows
+- Linux
+
+Virtualisation
+- VMware
 
 # Connect With Me
 
