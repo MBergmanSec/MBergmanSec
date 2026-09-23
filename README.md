@@ -24,13 +24,18 @@ Rather than simply completing labs, my goal is to understand **why** something h
 
 ---
 
-# Featured Project
+# Featured Investigations
 
-## [BluePeak SOC Environment](https://github.com/MBergmanSec/bluepeak-soc-environment) *(Active)*
+## [BluePeak Logistics SOC Portfolio — 5 completed cases](https://mbergmansec.github.io/bluepeak-soc-environment/)
 
-I built BluePeak Logistics as a fictional enterprise setting for hands-on SOC investigations. The [live investigation portfolio](https://mbergmansec.github.io/bluepeak-soc-environment/) contains five cases covering PowerShell, persistence, suspicious file activity and legitimate IT changes. Each report shows the Splunk queries, evidence, reasoning, disposition and remaining gaps.
+A fictional enterprise environment with hands-on Splunk investigations. Three cases were escalated after suspicious PowerShell, persistence and browser-data staging activity; two were closed after evidence linked the alerts to legitimate IT or synthetic test activity. Each case documents the SPL, evidence, reasoning and limits of the conclusion.
 
-For the blind-investigation cases, I work from the telemetry without being told the scenario setup or intended answer. The project documents what the evidence supports and what it cannot confirm.
+For the blind-investigation cases, I worked from the telemetry without knowing the scenario setup or intended answer. [Browse the repository and environment documentation](https://github.com/MBergmanSec/bluepeak-soc-environment).
+
+### Earlier focused labs
+
+- [Scheduled-task persistence](https://github.com/MBergmanSec/splunk-sysmon-scheduled-task-persistence): Confirmed that the LabUpdater task launched PowerShell every five minutes by matching task configuration with repeated process events.
+- [PowerShell reconnaissance and web request](https://github.com/MBergmanSec/splunk-powershell-web-download-investigation): Correlated PowerShell execution, host discovery, a DNS query and an outbound HTTPS connection in Sysmon.
 
 ---
 
