@@ -24,23 +24,13 @@ Rather than simply completing labs, my goal is to understand **why** something h
 
 ---
 
-# Featured Projects
+# Featured Project
 
-## SOC Investigations *(In Progress)*
+## [BluePeak SOC Environment](https://github.com/MBergmanSec/bluepeak-soc-environment) *(Active)*
 
-A growing collection of investigation reports based on practical labs and home lab scenarios.
+I built BluePeak Logistics as a fictional enterprise setting for hands-on SOC investigations. The [live investigation portfolio](https://mbergmansec.github.io/bluepeak-soc-environment/) contains five cases covering PowerShell, persistence, suspicious file activity and legitimate IT changes. Each report shows the Splunk queries, evidence, reasoning, disposition and remaining gaps.
 
-Topics include:
-
-- PowerShell
-- Windows Event Logs
-- Registry Persistence
-- Certutil
-- DNS Analysis
-- Network Beaconing
-- Authentication Events
-- Data Exfiltration
-- Malware Traffic Analysis
+For the blind-investigation cases, I work from the telemetry without being told the scenario setup or intended answer. The project documents what the evidence supports and what it cannot confirm.
 
 ---
 
